@@ -35,7 +35,8 @@ export class SidebarComponent implements OnInit {
       if ($(window).width() > 991) {
           return false;
       }
-      
+
       return true;
+      
   };
 }
